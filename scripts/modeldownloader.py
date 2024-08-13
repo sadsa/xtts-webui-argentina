@@ -182,9 +182,9 @@ def download_model(this_dir, model_version):
 
     # Define files and their corresponding URLs
     files_to_download = {
-        "config.json": f"https://huggingface.co/coqui/XTTS-v2/raw/{model_version}/config.json",
-        "model.pth": f"https://huggingface.co/coqui/XTTS-v2/resolve/{model_version}/model.pth?download=true",
-        "vocab.json": f"https://huggingface.co/coqui/XTTS-v2/raw/{model_version}/vocab.json",
+        "config.json": f"https://huggingface.co/marianbasti/XTTS-v2-argentinian-spanish/raw/main/config.json",
+        "model.pth": f"https://huggingface.co/marianbasti/XTTS-v2-argentinian-spanish/resolve/main/model.pth?download=true",
+        "vocab.json": f"https://huggingface.co/marianbasti/XTTS-v2-argentinian-spanish/raw/main/vocab.json",
         "speakers_xtts.pth": f"https://huggingface.co/coqui/XTTS-v2/resolve/main/speakers_xtts.pth?download=true"
     }
 
